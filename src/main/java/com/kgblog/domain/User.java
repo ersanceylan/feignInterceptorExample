@@ -15,15 +15,16 @@ import java.util.List;
  */
 public class User implements UserDetails {
 
+	private Long id;
+
 	private String username;
 
 	private String token;
 
 	public User() {}
 
-	public User(String username, String token) {
+	public User(String username) {
 		this.username = username;
-		this.token = token;
 	}
 
 	public void setUsername(String username) {
@@ -38,9 +39,17 @@ public class User implements UserDetails {
 		this.token = token;
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	@Override
 	public String getPassword() {
-		return null;
+		return "password";
 	}
 
 	@Override
