@@ -27,4 +27,4 @@ login credentials are:
 
 > username: *give-any-username*
 
-> password: *password*
+> password: *1*
