@@ -8,7 +8,7 @@ you should read this [blog post](https://jfconavarrete.wordpress.com/2014/09/15/
 
 
 ## Running the application
-To demonstrate setting and using authorization header with real scenario, I decided to retrive user data from github api
+To demonstrate setting and using authorization header, I decided to retrive user data from github api
 which requires basic authentication. So firstly, you have to generate token 
 with your [github account](https://github.com/settings/tokens) in about half a minute. By the way, you don't need to select 
 any scope. Then, generated token and username must be set
